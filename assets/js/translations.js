@@ -9,7 +9,7 @@ const translations = {
         // About section highlights
         aboutMe: "Über mich",
         jobTitle: "Backend Softwareentwickler",
-        aboutDescription: "Hi! Ich bin Max, Softwareentwickler mit Fokus auf Backend-Technologien. Besonders gerne arbeite ich mit Kotlin oder Java und entwickle robuste APIs und Backend-Systeme, die nicht nur funktionieren, sondern auch gut wartbar sind.\n\nNach meinem Master of Science in Informatik habe ich meinen Schwerpunkt auf pragmatische Softwareentwicklung gelegt: saubere Architektur, klarer Code und Tools, die die Arbeit leichter machen, von Spring Boot über Docker bis PostgreSQL. Ich arbeite gerne strukturiert, denke gerne voraus und finde auch dann Lösungen, wenn's mal etwas komplizierter wird.\n\nNeben der Arbeit beschäftige ich mich mit Fotografie, ein kreativer Ausgleich zum Code, und probiere gerne neue Technologien aus, die mich fachlich weiterbringen.",
+        aboutDescription: "Hi! Ich bin Max, Softwareentwickler mit Fokus auf Backend-Technologien. Besonders gerne arbeite ich mit Kotlin oder Java und entwickle robuste APIs und Backend-Systeme, die nicht nur funktionieren, sondern auch gut wartbar sind.\n\nNach meinem Master of Science in Informatik habe ich meinen Schwerpunkt auf pragmatische Softwareentwicklung gelegt: saubere Architektur, klarer Code und Tools, die die Arbeit leichter machen, von Spring Boot über Docker bis PostgreSQL. Ich arbeite gerne strukturiert, denke gerne voraus und finde auch dann Lösungen, wenn's mal etwas komplizierter wird.\n\nNeben der Arbeit beschäftige ich mich mit Fotografie, ein kreativer Ausgleich zum Code und probiere gerne neue Technologien aus, die mich fachlich weiterbringen.",
         highlightCleanCode: "Clean Code",
         highlightCleanCodeDesc: "Wartbaren, gut strukturierten Code zu schreiben ist meine Leidenschaft",
         highlightRobustSolutions: "Robuste Lösungen",
@@ -25,15 +25,15 @@ const translations = {
         job1Company: "Significo GmbH",
         job1Description1: "Entwicklung skalierbarer Backend-Systeme mit Java/Kotlin",
         job1Description2: "Implementierung leistungsstarker APIs mit Spring Boot",
-        job1Description3: "Mentoring von Junior-Entwicklern und Durchführung von Code-Reviews",
-        job1Description4: "Gestaltung der Systemarchitektur für verteilte Dienste",
+        job1Description3: "Tests & Qualitätssicherung",
+        job1Description4: "Anbindung und Integration elektronischen Patientenakte (ePA)",
 
         job2Title: "Software-Entwickler",
         job2Duration: "Okt 2021 - Feb 2024",
         job2Company: "Piobyte GmbH",
-        job2Description1: "Entwicklung von RESTful APIs für Web- und Mobile-Anwendungen",
-        job2Description2: "Sicherstellung reibungsloser CI/CD-Pipelines mit Docker und Jenkins",
-        job2Description3: "Zusammenarbeit mit UI/UX-Teams für nahtlose Integration",
+        job2Description1: "Entwicklung skalierbarer Backend-Systeme mit Java",
+        job2Description2: "Implementierung leistungsstarker APIs mit Spring Boot",
+        job2Description3: "Tests & Qualitätssicherung",
         job2Description4: "Optimierung von Datenbankabfragen und Verbesserung der Leistung",
 
         // Tech stack section
@@ -56,7 +56,7 @@ const translations = {
 
         bachelorTitle: "Bachelor of Science in Informatik",
         bachelorGraduationYear: "2021",
-        bachelorUniversityName: "Technical University Brandenburg",
+        bachelorUniversityName: "Technische Hochschule Brandenburg",
         bachelorGrade: "Abschlussnote: 1.8 (gut)",
         bachelorThesisTitle: "Vergleich zwischen den API-Architekturstilen Representational State Transfer und GraphQL",
         bachelorThesisDownload: "Bachelorarbeit herunterladen",
@@ -98,14 +98,14 @@ const translations = {
     en: {
         // hero
         greeting: "Hi, I'm Max 👋",
-        intro: "Software developer focused on backend technologies, passionate photographer, and curious learner.",
+        intro: "Software developer focused on backend technologies, passionate photographer and curious learner.",
         learnMore: "Learn more",
         contactBtn: "Get in touch",
 
         // About section highlights
         aboutMe: "About me",
         jobTitle: "Backend Software Developer",
-        aboutDescription: "Hi! I'm Max, a software developer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code, and tools that make work easier – from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead, and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
+        aboutDescription: "Hi! I'm Max, a software developer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code and tools that make work easier – from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
         highlightCleanCode: "Clean Code",
         highlightCleanCodeDesc: "Writing maintainable, well-structured code is my passion",
         highlightRobustSolutions: "Robust Solutions",
@@ -121,15 +121,15 @@ const translations = {
         job1Company: "Significo GmbH",
         job1Description1: "Developed scalable backend systems using Java/Kotlin",
         job1Description2: "Implemented high-performance APIs with Spring Boot",
-        job1Description3: "Mentored junior developers and conducted code reviews",
-        job1Description4: "Designed system architecture for distributed services",
+        job1Description3: "Testing & Quality Assurance",
+        job1Description4: "Connection and Integration of german Electronic Patient Records (ePA)",
 
         job2Title: "Software Developer",
         job2Duration: "Oct 2021 - Feb 2024",
         job2Company: "Piobyte GmbH",
-        job2Description1: "Developed RESTful APIs for web and mobile applications",
-        job2Description2: "Ensured smooth CI/CD pipelines using Docker and Jenkins",
-        job2Description3: "Collaborated with UI/UX teams for seamless integration",
+        job2Description1: "Developed scalable backend systems using Java",
+        job2Description2: "Implemented high-performance APIs with Spring Boot",
+        job2Description3: "Testing & Quality Assurance",
         job2Description4: "Optimized database queries and improved performance",
 
         // Tech stack section
@@ -152,7 +152,7 @@ const translations = {
 
         bachelorTitle: "Bachelor of Science in Computer Science",
         bachelorGraduationYear: "2021",
-        bachelorUniversityName: "Brandenburg Technical University",
+        bachelorUniversityName: "Brandenburg University of Applied Sciences",
         bachelorGrade: "Final grade: 1.8 (good)",
         bachelorThesisTitle: "Comparison Between the API Architecture Styles Representational State Transfer and GraphQL",
         bachelorThesisDownload: "Download Bachelor's Thesis",
@@ -172,7 +172,7 @@ const translations = {
 
         // Photography section
         photoTitle: "Photography",
-        photoDesc: "In my free time, I photograph landscapes, architecture, and people.",
+        photoDesc: "In my free time, I photograph landscapes, architecture and people.",
         photoCardTitle: "My Photography",
         viewMorePhotos: "View more photos",
         landscapeCaption: "Landscape",
