@@ -127,7 +127,7 @@ function switchLanguage(lang) {
         item.className = "tech-item";
 
         const icon = document.createElement("img");
-        icon.src = `/assets/icons/${tech.toLowerCase().replace(/\s+/g, '-')}.svg`;
+        icon.src = `assets/icons/${tech.toLowerCase().replace(/\s+/g, '-')}.svg`;
         icon.alt = `${tech} Icon`;
         icon.className = "tech-icon";
 

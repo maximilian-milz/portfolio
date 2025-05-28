@@ -52,7 +52,7 @@ const translations = {
         masterGrade: "Abschlussnote: 1.5 (sehr gut)",
         masterThesisTitle: "Vergleich von reaktiver Programmierung und virtuellen Threads in Bezug auf Skalierbarkeit und Ressourcennutzung",
         masterThesisDownload: "Masterarbeit herunterladen",
-        masterFile: "/assets/pdf/Masterarbeit-Maximilian-Milz.pdf",
+        masterFile: "assets/pdf/Masterarbeit-Maximilian-Milz.pdf",
 
         bachelorTitle: "Bachelor of Science in Informatik",
         bachelorGraduationYear: "2021",
@@ -60,7 +60,7 @@ const translations = {
         bachelorGrade: "Abschlussnote: 1.8 (gut)",
         bachelorThesisTitle: "Vergleich zwischen den API-Architekturstilen Representational State Transfer und GraphQL",
         bachelorThesisDownload: "Bachelorarbeit herunterladen",
-        bachelorFile: "/assets/pdf/Bachelorarbeit-Maximilian-Milz.pdf",
+        bachelorFile: "assets/pdf/Bachelorarbeit-Maximilian-Milz.pdf",
 
         // Projects section
         portfolioTitle: "Projekte",
@@ -89,7 +89,7 @@ const translations = {
         cvTitle: "Lebenslauf",
         cvDescription: "Lade meinen Lebenslauf herunter, um mehr über meine Erfahrungen und Fähigkeiten zu erfahren.",
         cvDownload: "Lebenslauf herunterladen",
-        cvFile: "/assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
+        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
         connectWithMe: "Verbinde dich mit mir",
 
         // Footer
@@ -148,7 +148,7 @@ const translations = {
         masterGrade: "Final grade: 1.5 (very good)",
         masterThesisTitle: "Comparison of Reactive Programming and Virtual Threads in Terms of Scalability and Resource Usage",
         masterThesisDownload: "Download Master's Thesis",
-        masterFile: "/assets/pdf/Masterarbeit-Maximilian-Milz.pdf",
+        masterFile: "assets/pdf/Masterarbeit-Maximilian-Milz.pdf",
 
         bachelorTitle: "Bachelor of Science in Computer Science",
         bachelorGraduationYear: "2021",
@@ -156,7 +156,7 @@ const translations = {
         bachelorGrade: "Final grade: 1.8 (good)",
         bachelorThesisTitle: "Comparison Between the API Architecture Styles Representational State Transfer and GraphQL",
         bachelorThesisDownload: "Download Bachelor's Thesis",
-        bachelorFile: "/assets/pdf/Bachelorarbeit-Maximilian-Milz.pdf",
+        bachelorFile: "assets/pdf/Bachelorarbeit-Maximilian-Milz.pdf",
 
         // Projects section
         portfolioTitle: "Projects",
@@ -185,7 +185,7 @@ const translations = {
         cvTitle: "Curriculum Vitae",
         cvDescription: "Download my CV to learn more about my experience and skills.",
         cvDownload: "Download CV",
-        cvFile: "/assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
+        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
         connectWithMe: "Connect with me",
 
         // Footer
