@@ -185,7 +185,7 @@ const translations = {
         cvTitle: "Curriculum Vitae",
         cvDescription: "Download my CV to learn more about my experience and skills.",
         cvDownload: "Download CV",
-        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
+        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-English.pdf",
         connectWithMe: "Connect with me",
 
         // Footer
