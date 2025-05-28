@@ -95,7 +95,7 @@
                         </svg>
                     </a>
                     <a href="#contact" class="hero-button-secondary">
-                        <span>Contact</span>
+                        <span id="text-contact">Contact</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="hero-button-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
@@ -251,7 +251,9 @@
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Java</span>
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Kotlin</span>
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Spring Boot</span>
+                        <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Docker</span>
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Microservices</span>
+                        <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">SQL</span>
                     </div>
                 </div>
             </div>
@@ -312,8 +314,8 @@
                     </ul>
                     <div class="mt-4 flex flex-wrap gap-2">
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Java</span>
+                        <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Spring Boot</span>
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Docker</span>
-                        <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">Jenkins</span>
                         <span class="px-3 py-1 bg-brand-accent/20 rounded-full text-xs">SQL</span>
                     </div>
                 </div>
@@ -326,17 +328,17 @@
 <section id="tech-stack" class="py-16 px-6">
     <div class="max-w-4xl mx-auto fade-in">
         <h2 id="text-tech-title" class="text-4xl font-bold mb-8 animated-heading">Tech Stack</h2>
-        <div class="tech-stack-container">
+        <div class="tech-stack-container text-center">
             <div class="tech-category">
-                <h3 class="tech-category-title">Languages</h3>
+                <h3 id="text-tech-programming-languages" class="tech-category-title">Languages</h3>
                 <div id="tech-languages" class="tech-items"></div>
             </div>
-            <div class="tech-category">
-                <h3 class="tech-category-title">Frameworks</h3>
+            <div class="tech-category text-center">
+                <h3 id="text-tech-frameworks" class="tech-category-title">Frameworks</h3>
                 <div id="tech-frameworks" class="tech-items"></div>
             </div>
-            <div class="tech-category">
-                <h3 class="tech-category-title">Tools & Databases</h3>
+            <div class="tech-category text-center">
+                <h3 id="text-tech-tools-and-databases" class="tech-category-title">Tools & Databases</h3>
                 <div id="tech-tools" class="tech-items"></div>
             </div>
         </div>
@@ -632,25 +634,18 @@
         <div class="social-links-container">
             <h3 id="text-social-links-title" class="social-links-title">Connect with me</h3>
             <div class="social-links">
-                <a href="https://github.com/your-github-username" target="_blank" class="social-link">
+                <a href="https://github.com/maximilian-milz" target="_blank" class="social-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-icon github">
                         <path fill-rule="evenodd" d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577v-2.234C6.885 20.566 6.14 18.741 6.14 18.741c-.546-1.386-1.333-1.756-1.333-1.756-1.09-.746.083-.73.083-.73 1.205.087 1.837 1.237 1.837 1.237 1.07 1.834 2.809 1.304 3.495.998.108-.775.42-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.468-2.38 1.236-3.22-.123-.303-.535-1.527.117-3.176 0 0 1.008-.322 3.3 1.23A11.523 11.523 0 0 1 12 5.803c1.02.005 2.047.138 3.003.404 2.29-1.553 3.297-1.23 3.297-1.23.653 1.649.242 2.872.12 3.175.77.841 1.233 1.91 1.233 3.22 0 4.608-2.806 5.623-5.479 5.921.43.372.814 1.102.814 2.222v3.293c0 .32.192.694.801.576C20.565 21.797 24 17.301 24 12 24 5.373 18.627 0 12 0z" clip-rule="evenodd"/>
                     </svg>
                     <span class="social-name">GitHub</span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="social-link">
+                <a href="https://www.linkedin.com/in/maximilian-milz-aa72a12a8/" target="_blank" class="social-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-icon linkedin">
                         <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
                     </svg>
                     <span class="social-name">LinkedIn</span>
-                </a>
-
-                <a href="https://www.xing.com/profile/your-xing-profile" target="_blank" class="social-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="social-icon xing">
-                        <path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/>
-                    </svg>
-                    <span class="social-name">Xing</span>
                 </a>
             </div>
         </div>

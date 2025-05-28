@@ -4,6 +4,7 @@ function switchLanguage(lang) {
     document.getElementById("text-greeting").innerText = t.greeting;
     document.getElementById("text-intro").innerText = t.intro;
     document.getElementById("text-learn-more").innerText = t.learnMore;
+    document.getElementById("text-contact").innerText = t.contactTitle;
 
     // About section
     document.getElementById("text-about-title").innerText = t.aboutMe;
@@ -32,6 +33,9 @@ function switchLanguage(lang) {
 
     // Tech stack section
     document.getElementById("text-tech-title").innerText = t.techStackTitle;
+    document.getElementById("text-tech-programming-languages").innerText = t.programmingLanguages;
+    document.getElementById("text-tech-frameworks").innerText = t.frameworks;
+    document.getElementById("text-tech-tools-and-databases").innerText = t.toolsAndDatabases;
 
     // Education section
     document.getElementById("text-education-title").innerText = t.educationTitle;
@@ -104,16 +108,16 @@ function switchLanguage(lang) {
 
     // Skill levels (0-100)
     const skillLevels = {
-        "Java": 90,
-        "Kotlin": 85,
-        "Python": 75,
-        "Spring Boot": 88,
-        "Hibernate": 80,
-        "PostgreSQL": 85,
-        "Docker": 78,
-        "Git": 92,
-        "Figma": 70,
-        "Jira": 82
+        "Java": 95,
+        "Kotlin": 70,
+        "Python": 80,
+        "Spring Boot": 90,
+        "Hibernate": 70,
+        "PostgreSQL": 75,
+        "Docker": 90,
+        "Git": 95,
+        "Figma": 60,
+        "Jira": 70
     };
 
     // Clear previous tech items
