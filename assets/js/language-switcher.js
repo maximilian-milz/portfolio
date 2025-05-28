@@ -20,11 +20,13 @@ function switchLanguage(lang) {
     document.getElementById("text-career-title").innerText = t.careerTitle;
     document.getElementById("text-job-title-1").innerText = t.job1Title;
     document.getElementById("text-company-1").innerText = t.job1Company;
+    document.getElementById("text-job1-duration").innerText = t.job1Duration;
     document.getElementById("text-job1-desc1").innerText = t.job1Description1;
     document.getElementById("text-job1-desc2").innerText = t.job1Description2;
     document.getElementById("text-job1-desc3").innerText = t.job1Description3;
     document.getElementById("text-job1-desc4").innerText = t.job1Description4;
     document.getElementById("text-job-title-2").innerText = t.job2Title;
+    document.getElementById("text-job2-duration").innerText = t.job2Duration;
     document.getElementById("text-company-2").innerText = t.job2Company;
     document.getElementById("text-job2-desc1").innerText = t.job2Description1;
     document.getElementById("text-job2-desc2").innerText = t.job2Description2;

@@ -20,7 +20,7 @@ const translations = {
         // Career section
         careerTitle: "Karriere",
 
-        job1Title: "Software-Entwickler",
+        job1Title: "Backend-Entwickler",
         job1Duration: "Feb 2024 - Heute",
         job1Company: "Significo GmbH",
         job1Description1: "Entwicklung skalierbarer Backend-Systeme mit Java/Kotlin",
@@ -28,7 +28,7 @@ const translations = {
         job1Description3: "Tests & Qualitätssicherung",
         job1Description4: "Anbindung und Integration elektronischen Patientenakte (ePA)",
 
-        job2Title: "Software-Entwickler",
+        job2Title: "Backend-Entwickler",
         job2Duration: "Okt 2021 - Feb 2024",
         job2Company: "Piobyte GmbH",
         job2Description1: "Entwicklung skalierbarer Backend-Systeme mit Java",
@@ -116,7 +116,7 @@ const translations = {
         // Career section
         careerTitle: "Career",
 
-        job1Title: "Software Developer",
+        job1Title: "Backend Developer",
         job1Duration: "Feb 2024 - Present",
         job1Company: "Significo GmbH",
         job1Description1: "Developed scalable backend systems using Java/Kotlin",
@@ -124,7 +124,7 @@ const translations = {
         job1Description3: "Testing & Quality Assurance",
         job1Description4: "Connection and Integration of german Electronic Patient Records (ePA)",
 
-        job2Title: "Software Developer",
+        job2Title: "Backend Developer",
         job2Duration: "Oct 2021 - Feb 2024",
         job2Company: "Piobyte GmbH",
         job2Description1: "Developed scalable backend systems using Java",
