@@ -79,9 +79,9 @@ const translations = {
         photoDesc: "In meiner Freizeit fotografiere ich Landschaften, Architektur und Menschen.",
         photoCardTitle: "Meine Fotografie",
         viewMorePhotos: "Mehr Fotos ansehen",
-        landscapeCaption: "Landschaft",
-        architectureCaption: "Architektur",
-        portraitCaption: "Portrait",
+        photo01Caption: "Rio de Janeiro - Ipanema",
+        photo02Caption: "B4MBI",
+        photo03Caption: "Paraty - Ilha do João Araújo",
 
         // Contact section
         contactTitle: "Kontakt aufnehmen",
@@ -175,9 +175,9 @@ const translations = {
         photoDesc: "In my free time, I photograph landscapes, architecture and people.",
         photoCardTitle: "My Photography",
         viewMorePhotos: "View more photos",
-        landscapeCaption: "Landscape",
-        architectureCaption: "Architecture",
-        portraitCaption: "Portrait",
+        photo01Caption: "Rio de Janeiro - Ipanema",
+        photo02Caption: "B4MBI",
+        photo03Caption: "Paraty - Ilha do João Araújo",
 
         // Contact section
         contactTitle: "Get in touch",

@@ -71,9 +71,9 @@ function switchLanguage(lang) {
     document.getElementById("text-photo-title").innerText = t.photoTitle;
     document.getElementById("text-photo-desc").innerText = t.photoDesc;
     document.getElementById("text-photo-card-title").innerText = t.photoCardTitle;
-    document.getElementById("text-landscape-caption").innerText = t.landscapeCaption;
-    document.getElementById("text-architecture-caption").innerText = t.architectureCaption;
-    document.getElementById("text-portrait-caption").innerText = t.portraitCaption;
+    document.getElementById("text-img01-caption").innerText = t.photo01Caption;
+    document.getElementById("text-img02-caption").innerText = t.photo02Caption;
+    document.getElementById("text-img03-caption").innerText = t.photo03Caption;
     document.getElementById("text-view-more-photos").innerText = t.viewMorePhotos;
 
     // Contact section
