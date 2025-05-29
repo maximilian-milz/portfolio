@@ -79,7 +79,7 @@ const translations = {
 
         // Photography section
         photoTitle: "Fotografie",
-        photoDesc: "In meiner Freizeit fotografiere ich Landschaften, Architektur und Menschen.",
+        photoDesc: "In meiner Freizeit bin ich gern mit der Kamera unterwegs. Aktuell fotografiere ich mit der Fujifilm X-T4 oder der handlicheren X100VI. Je nachdem, worauf ich gerade Lust habe.",
         photoCardTitle: "Meine Fotografie",
         viewMorePhotos: "Mehr Fotos ansehen",
         photo01Caption: "Rio de Janeiro - Ipanema",
@@ -87,7 +87,7 @@ const translations = {
         photo03Caption: "Paraty - Ilha do João Araújo",
 
         // Contact section
-        contactTitle: "Kontakt aufnehmen",
+        contactTitle: "Kontakt",
         contactText: "Du kannst mich gerne über meine E-Mail-Adresse kontaktieren:",
         cvTitle: "Lebenslauf",
         cvDescription: "Lade meinen Lebenslauf herunter, um mehr über meine Erfahrungen und Fähigkeiten zu erfahren.",
@@ -176,7 +176,7 @@ const translations = {
 
         // Photography section
         photoTitle: "Photography",
-        photoDesc: "In my free time, I photograph landscapes, architecture and people.",
+        photoDesc: "I like to take my camera out in my free time. Right now I’m shooting with a Fujifilm X-T4 or the more compact X100VI. Depending on what I’m in the mood for.",
         photoCardTitle: "My Photography",
         viewMorePhotos: "View more photos",
         photo01Caption: "Rio de Janeiro - Ipanema",
