@@ -1,3 +1,10 @@
+// Main application functionality
+// Combines language switching and UI effects
+
+/**
+ * Switch the website language
+ * @param {string} lang - Language code ('de' or 'en')
+ */
 function switchLanguage(lang) {
     const t = translations[lang];
 
@@ -77,19 +84,6 @@ function switchLanguage(lang) {
     updateElementText("text-project-desc1", t.projectDesc1);
     updateElementText("text-project-link1", t.projectLink);
 
-    // Update other project elements
-    updateElementText("text-project-title2", t.projectTitle2);
-    updateElementText("text-project-desc2", t.projectDesc2);
-    updateElementText("text-project-link2", t.projectLink);
-
-    updateElementText("text-project-title3", t.projectTitle3);
-    updateElementText("text-project-desc3", t.projectDesc3);
-    updateElementText("text-project-link3", t.projectLink);
-
-    updateElementText("text-project-title4", t.projectTitle4);
-    updateElementText("text-project-desc4", t.projectDesc4);
-    updateElementText("text-project-link4", t.projectLink);
-
     // Photography section
     updateElementText("text-photo-title", t.photoTitle);
     updateElementText("text-photo-desc", t.photoDesc);
@@ -110,10 +104,8 @@ function switchLanguage(lang) {
     // Social links
     updateElementText("text-social-links-title", t.connectWithMe);
 
-
     // Set the language attribute for the HTML element
     document.documentElement.lang = lang;
-
 
     // Footer
     updateElementText("text-footer", t.footerText);
@@ -125,6 +117,15 @@ function switchLanguage(lang) {
         }
     }, 100);
 
+    // Initialize tech stack
+    initializeTechStack(t);
+}
+
+/**
+ * Initialize the tech stack section
+ * @param {Object} t - Translation object
+ */
+function initializeTechStack(t) {
     // Tech categories
     const techCategories = {
         languages: ["Java", "Kotlin", "Python"],
@@ -221,4 +222,35 @@ function switchLanguage(lang) {
             }
         });
     }
+}
+
+/**
+ * Animate section headings by splitting text into individual letters
+ */
+function animateHeadings() {
+    const headings = document.querySelectorAll('.animated-heading');
+    if (headings.length === 0) return; // Exit if no headings found
+
+    headings.forEach(heading => {
+        // Skip if heading is empty or already processed
+        if (!heading || !heading.textContent || heading.querySelector('.text-wrapper')) return;
+
+        // Get the text content
+        const text = heading.textContent;
+        // Clear the heading
+        heading.innerHTML = '';
+
+        // Create a wrapper for the text
+        const textWrapper = document.createElement('span');
+        textWrapper.className = 'text-wrapper';
+        heading.appendChild(textWrapper);
+
+        // Split text into letters and add them to the wrapper
+        text.split('').forEach(letter => {
+            const letterSpan = document.createElement('span');
+            letterSpan.className = 'letter';
+            letterSpan.textContent = letter === ' ' ? '\u00A0' : letter; // Use non-breaking space for spaces
+            textWrapper.appendChild(letterSpan);
+        });
+    });
 }
