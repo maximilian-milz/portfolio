@@ -695,35 +695,50 @@ body::after {
 /* Animated section headings */
 .animated-heading {
     position: relative;
-    display: inline-block;
+    display: block;
+    text-align: center;
+    font-size: 3.5rem; /* Increased font size */
+    margin-bottom: 2rem;
+    padding: 0.5em 0;
     overflow: hidden;
-    padding: 0.25em 0.5em;
-    background: var(--gradient-card);
-    border-radius: var(--border-radius-sm);
-    box-shadow: var(--shadow-sm);
+    background: none; /* Removed card background */
     transform-style: preserve-3d;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    color: #FFFFFF; /* Bright white for high contrast */
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add glow effect for emphasis */
 }
 
-.animated-heading::before {
+/* Underline removed as requested */
+/* .animated-heading::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: left 0.7s ease;
-}
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: var(--gradient-accent);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+} */
+
+/* Star symbol removed as requested */
 
 .animated-heading:hover {
-    transform: translateY(-5px) rotateX(5deg);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+    color: var(--color-accent); /* Using the accent color from the current color scheme */
+    text-shadow: 0 0 15px rgba(59, 130, 246, 0.7); /* Enhanced glow effect on hover using accent color */
+    transition: all 0.3s ease;
 }
 
-.animated-heading:hover::before {
-    left: 100%;
-}
+/* Hover effect for underline removed since underline was removed */
+/* .animated-heading:hover::before {
+    width: 150px;
+} */
+
+/* Hover effect for star symbol removed since star was removed */
 
 .animated-heading .text-wrapper {
     position: relative;
