@@ -110,20 +110,10 @@ function switchLanguage(lang) {
     // Social links
     updateElementText("text-social-links-title", t.connectWithMe);
 
-    // Memory Game section
-    updateElementText("text-memory-title", t.memoryGameTitle);
-    updateElementText("text-memory-card-title", t.memoryCardTitle);
-    updateElementText("text-memory-desc", t.memoryDescription);
-    updateElementText("text-memory-matches-label", t.memoryMatchesLabel);
-    updateElementText("text-memory-accuracy-label", t.memoryAccuracyLabel);
-    updateElementText("text-memory-attempts-label", t.memoryAttemptsLabel);
-    updateElementText("text-memory-reset", t.memoryReset);
-    updateElementText("text-project-title5", t.memoryProjectTitle);
-    updateElementText("text-project-desc5", t.memoryProjectDesc);
-    updateElementText("text-project-link5", t.memoryPlayGame);
 
-    // Back to home link (for memory-game.html)
-    updateElementText("text-back-to-home", t.backToHome);
+    // Set the language attribute for the HTML element
+    document.documentElement.lang = lang;
+
 
     // Footer
     updateElementText("text-footer", t.footerText);

@@ -6,18 +6,6 @@ const translations = {
         learnMore: "Mehr erfahren",
         contactBtn: "Kontakt aufnehmen",
 
-        // Memory Game
-        memoryGameTitle: "Hauptstadt-Memory",
-        memoryCardTitle: "Finde die passenden Paare",
-        memoryDescription: "Verbinde Länder mit ihren Hauptstädten. Je weniger Fehler du machst, desto besser ist deine Genauigkeit.",
-        memoryMatchesLabel: "Gefundene Paare:",
-        memoryAccuracyLabel: "Genauigkeit:",
-        memoryAttemptsLabel: "Versuche:",
-        memoryReset: "Spiel neu starten",
-        memoryProjectTitle: "Hauptstadt-Memory",
-        memoryProjectDesc: "Ein interaktives Memory-Spiel, bei dem Länder mit ihren Hauptstädten gepaart werden müssen.",
-        memoryPlayGame: "Spiel starten",
-        memoryGameComplete: "Glückwunsch! Du hast das Spiel abgeschlossen!",
 
         // About section highlights
         aboutMe: "Über mich",
@@ -117,18 +105,6 @@ const translations = {
         learnMore: "Learn more",
         contactBtn: "Get in touch",
 
-        // Memory Game
-        memoryGameTitle: "Capital City Memory",
-        memoryCardTitle: "Find the matching pairs",
-        memoryDescription: "Match countries with their capital cities. The fewer mistakes you make, the better your accuracy.",
-        memoryMatchesLabel: "Matches Found:",
-        memoryAccuracyLabel: "Accuracy:",
-        memoryAttemptsLabel: "Attempts:",
-        memoryReset: "Reset Game",
-        memoryProjectTitle: "Capital City Memory",
-        memoryProjectDesc: "An interactive memory game where you need to match countries with their capital cities.",
-        memoryPlayGame: "Play Game",
-        memoryGameComplete: "Congratulations! You completed the game!",
 
         // About section highlights
         aboutMe: "About me",
