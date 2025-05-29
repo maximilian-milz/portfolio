@@ -20,33 +20,9 @@
 </head>
 <body class="text-brand-textDark font-sans">
 
-<!-- Stars/particles background -->
-<div class="stars-container"></div>
+<!-- Subtle background gradient -->
+<div class="subtle-background"></div>
 
-<!-- Hero shapes for entire site -->
-<div class="body-hero-shape-1"></div>
-<div class="body-hero-shape-2"></div>
-<div class="body-hero-shape-3"></div>
-
-<!-- Aurora background effect -->
-<div class="aurora-container">
-    <div class="aurora"></div>
-    <div class="aurora"></div>
-    <div class="aurora"></div>
-    <div class="aurora"></div>
-</div>
-
-<!-- Floating code symbols -->
-<div class="code-symbols-container">
-    <div class="code-symbol">{</div>
-    <div class="code-symbol">}</div>
-    <div class="code-symbol">()</div>
-    <div class="code-symbol">[]</div>
-    <div class="code-symbol">//</div>
-    <div class="code-symbol">=></div>
-    <div class="code-symbol">&lt;&gt;</div>
-    <div class="code-symbol">&&</div>
-</div>
 
 <!-- Language Switch -->
 <div class="fixed top-4 right-4 z-50">
@@ -68,10 +44,6 @@
     <div class="hero-bg-gradient absolute inset-0 z-0"></div>
     <div class="hero-bg-pattern absolute inset-0 z-0"></div>
 
-    <!-- Animated shapes -->
-    <div class="hero-shape hero-shape-1"></div>
-    <div class="hero-shape hero-shape-2"></div>
-    <div class="hero-shape hero-shape-3"></div>
 
     <!-- Main content -->
     <div class="container mx-auto px-6 relative z-10">
@@ -475,57 +447,79 @@
             </div>
         </div>
 
-        <div class="photo-gallery">
-            <div class="photo-gallery-item photo-gallery-item-large" onclick="openPhotoModal('assets/img/img01.jpg', 'Rio de Janeiro - Ipanema')">
-                <img loading="lazy" src="assets/img/img01.jpg" alt="Rio de Janeiro - Ipanema" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img01-caption" class="photo-gallery-caption">Image 01</span>
+        <!-- Photo Slideshow -->
+        <div class="photo-slideshow">
+            <div class="slideshow-container">
+                <!-- Slides -->
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img01.jpg" alt="Rio de Janeiro - Ipanema" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img01-caption">Image 01</span>
+                    </div>
                 </div>
+
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img02.jpg" alt="B4MBI" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img02-caption">Image 02</span>
+                    </div>
+                </div>
+
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img03.jpg" alt="Paraty - Ilha do João Araújo" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img03-caption">Image 03</span>
+                    </div>
+                </div>
+
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img01.jpg" alt="Sunset at the Beach" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img04-caption">Image 04</span>
+                    </div>
+                </div>
+
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img02.jpg" alt="Mountain View" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img05-caption">Image 05</span>
+                    </div>
+                </div>
+
+                <div class="slideshow-slide">
+                    <img loading="lazy" src="assets/img/img03.jpg" alt="City Lights" class="slideshow-image">
+                    <div class="slideshow-caption">
+                        <span id="text-img06-caption">Image 06</span>
+                    </div>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="slideshow-progress">
+                    <div class="slideshow-progress-bar"></div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="slideshow-prev" aria-label="Previous slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="slideshow-nav-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <button class="slideshow-next" aria-label="Next slide">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="slideshow-nav-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
             </div>
 
-            <div class="photo-gallery-item" onclick="openPhotoModal('assets/img/img02.jpg', 'B4MBI')">
-                <img loading="lazy" src="assets/img/img02.jpg" alt="B4MBI" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img02-caption" class="photo-gallery-caption">Image 02</span>
-                </div>
+            <!-- Pagination Dots -->
+            <div class="slideshow-pagination">
+                <span class="slideshow-dot active" data-index="0"></span>
+                <span class="slideshow-dot" data-index="1"></span>
+                <span class="slideshow-dot" data-index="2"></span>
+                <span class="slideshow-dot" data-index="3"></span>
+                <span class="slideshow-dot" data-index="4"></span>
+                <span class="slideshow-dot" data-index="5"></span>
             </div>
-
-            <div class="photo-gallery-item" onclick="openPhotoModal('assets/img/img03.jpg', 'Paraty - Ilha do João Araújo')">
-                <img loading="lazy" src="assets/img/img03.jpg" alt="Paraty - Ilha do João Araújo" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img03-caption" class="photo-gallery-caption">Image 03</span>
-                </div>
-            </div>
-
-            <div class="photo-gallery-item photo-gallery-item-tall" onclick="openPhotoModal('assets/img/img01.jpg', 'Sunset at the Beach')">
-                <img loading="lazy" src="assets/img/img01.jpg" alt="Sunset at the Beach" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img04-caption" class="photo-gallery-caption">Image 04</span>
-                </div>
-            </div>
-
-            <div class="photo-gallery-item" onclick="openPhotoModal('assets/img/img02.jpg', 'Mountain View')">
-                <img loading="lazy" src="assets/img/img02.jpg" alt="Mountain View" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img05-caption" class="photo-gallery-caption">Image 05</span>
-                </div>
-            </div>
-
-            <div class="photo-gallery-item photo-gallery-item-wide" onclick="openPhotoModal('assets/img/img03.jpg', 'City Lights')">
-                <img loading="lazy" src="assets/img/img03.jpg" alt="City Lights" class="photo-gallery-image">
-                <div class="photo-gallery-overlay">
-                    <span id="text-img06-caption" class="photo-gallery-caption">Image 06</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Photo Modal -->
-    <div id="photoModal" class="photo-modal">
-        <div class="photo-modal-content">
-            <span class="photo-modal-close" onclick="closePhotoModal()">&times;</span>
-            <img id="photoModalImage" class="photo-modal-image" alt="photoModalImage" src="">
-            <div id="photoModalCaption" class="photo-modal-caption"></div>
         </div>
     </div>
 </section>
@@ -604,6 +598,7 @@
 <!-- Scripts -->
 <script src="assets/js/translations.js"></script>
 <script src="assets/js/photo-modal.js"></script>
+<script src="assets/js/photo-slideshow.js"></script>
 <script src="assets/js/language-switcher.js"></script>
 <script src="assets/js/ui-effects.js"></script>
 </body>
