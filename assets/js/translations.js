@@ -64,14 +64,16 @@ const translations = {
 
         // Projects section
         portfolioTitle: "Projekte",
-        projectTitle1: "REST-API Service",
-        projectDesc1: "Entwicklung eines skalierbaren REST-API Services mit Spring Boot, JPA und PostgreSQL.",
-        projectTitle2: "Microservice-Architektur",
-        projectDesc2: "Konzeption und Implementierung einer Microservice-Architektur mit Docker und Kubernetes.",
-        projectTitle3: "Datenanalyse-Tool",
-        projectDesc3: "Entwicklung eines Tools zur Analyse und Visualisierung von Daten mit Python und Pandas.",
-        projectTitle4: "CI/CD Pipeline",
-        projectDesc4: "Aufbau einer automatisierten CI/CD Pipeline mit Jenkins und Docker für kontinuierliche Integration und Deployment.",
+        projectTitle1: "Kotlin REST API Skeleton",
+        projectDesc1: "Ein Skeleton-Projekt für REST APIs mit Kotlin und Spring Boot als Grundlage für zukünftige Projekte.",
+        projectTitle2: "REST-API Service",
+        projectDesc2: "Entwicklung eines skalierbaren REST-API Services mit Spring Boot, JPA und PostgreSQL.",
+        projectTitle3: "Microservice-Architektur",
+        projectDesc3: "Konzeption und Implementierung einer Microservice-Architektur mit Docker und Kubernetes.",
+        projectTitle4: "Datenanalyse-Tool",
+        projectDesc4: "Entwicklung eines Tools zur Analyse und Visualisierung von Daten mit Python und Pandas.",
+        projectTitle5: "CI/CD Pipeline",
+        projectDesc5: "Aufbau einer automatisierten CI/CD Pipeline mit Jenkins und Docker für kontinuierliche Integration und Deployment.",
         projectLink: "Mehr erfahren",
 
         // Photography section
@@ -160,14 +162,14 @@ const translations = {
 
         // Projects section
         portfolioTitle: "Projects",
-        projectTitle1: "REST API Service",
-        projectDesc1: "Built a scalable REST API service using Spring Boot, JPA, and PostgreSQL.",
-        projectTitle2: "Microservice Architecture",
-        projectDesc2: "Designed and implemented a microservice architecture using Docker and Kubernetes.",
-        projectTitle3: "Data Analysis Tool",
-        projectDesc3: "Created a tool for analyzing and visualizing data with Python and Pandas.",
-        projectTitle4: "CI/CD Pipeline",
-        projectDesc4: "Set up an automated CI/CD pipeline using Jenkins and Docker for continuous integration and deployment.",
+        projectTitle1: "Kotlin REST API Skeleton",
+        projectDesc1: "A skeleton project for REST APIs with Kotlin and Spring Boot as a foundation for future projects.",
+        projectTitle2: "REST API Service",
+        projectDesc2: "Built a scalable REST API service using Spring Boot, JPA and PostgreSQL.",
+        projectTitle3: "Microservice Architecture",
+        projectDesc3: "Designed and implemented a microservice architecture using Docker and Kubernetes.",
+        projectTitle4: "Data Analysis Tool",
+        projectDesc4: "Created a tool for analyzing and visualizing data with Python and Pandas.",
         projectLink: "Learn more",
 
         // Photography section
