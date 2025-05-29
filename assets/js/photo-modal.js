@@ -1,11 +1,13 @@
 // Photo Modal Functions
 function openPhotoModal(imageSrc, caption) {
     const modal = document.getElementById('photoModal');
+    if (!modal) return;
+
     const modalImg = document.getElementById('photoModalImage');
     const modalCaption = document.getElementById('photoModalCaption');
 
-    modalImg.src = imageSrc;
-    modalCaption.textContent = caption;
+    if (modalImg) modalImg.src = imageSrc;
+    if (modalCaption) modalCaption.textContent = caption;
 
     modal.classList.add('show');
     document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
@@ -13,6 +15,8 @@ function openPhotoModal(imageSrc, caption) {
 
 function closePhotoModal() {
     const modal = document.getElementById('photoModal');
+    if (!modal) return;
+
     modal.classList.remove('show');
     document.body.style.overflow = ''; // Restore scrolling
 }
@@ -20,6 +24,8 @@ function closePhotoModal() {
 // Close modal when clicking outside the image
 document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('photoModal');
+    if (!modal) return; // Exit if modal doesn't exist
+
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             closePhotoModal();

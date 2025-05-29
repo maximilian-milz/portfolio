@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Initialize language
-    switchLanguage("de");
+    // Initialize language - only if the function exists
+    if (typeof switchLanguage === 'function') {
+        try {
+            switchLanguage("de");
+        } catch (e) {
+            console.error("Error switching language:", e);
+        }
+    }
 
     // Simple Intersection Observer
     const observer = new IntersectionObserver((entries) => {
@@ -38,7 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Function to animate headings
 function animateHeadings() {
-    document.querySelectorAll('.animated-heading').forEach(heading => {
+    const headings = document.querySelectorAll('.animated-heading');
+    if (headings.length === 0) return; // Exit if no headings found
+
+    headings.forEach(heading => {
+        // Skip if heading is empty or already processed
+        if (!heading || !heading.textContent || heading.querySelector('.text-wrapper')) return;
+
         // Get the text content
         const text = heading.textContent;
         // Clear the heading

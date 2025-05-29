@@ -1,104 +1,138 @@
 function switchLanguage(lang) {
     const t = translations[lang];
+
+    // Helper function to safely update element text
+    function updateElementText(id, text) {
+        const element = document.getElementById(id);
+        if (element) {
+            element.innerText = text;
+        }
+    }
+
+    // Helper function to safely update element attribute
+    function updateElementAttribute(id, attr, value) {
+        const element = document.getElementById(id);
+        if (element) {
+            element.setAttribute(attr, value);
+        }
+    }
+
     // Hero section
-    document.getElementById("text-greeting").innerText = t.greeting;
-    document.getElementById("text-intro").innerText = t.intro;
-    document.getElementById("text-learn-more").innerText = t.learnMore;
-    document.getElementById("text-contact").innerText = t.contactTitle;
+    updateElementText("text-greeting", t.greeting);
+    updateElementText("text-intro", t.intro);
+    updateElementText("text-learn-more", t.learnMore);
+    updateElementText("text-contact", t.contactTitle);
 
     // About section
-    document.getElementById("text-about-title").innerText = t.aboutMe;
-    document.getElementById("text-about-desc").innerText = t.aboutDescription;
-    document.getElementById("text-highlight-title1").innerText = t.highlightCleanCode;
-    document.getElementById("text-highlight-desc1").innerText = t.highlightCleanCodeDesc;
-    document.getElementById("text-highlight-title2").innerText = t.highlightRobustSolutions;
-    document.getElementById("text-highlight-desc2").innerText = t.highlightRobustSolutionsDesc;
-    document.getElementById("text-highlight-title3").innerText = t.highlightFastLearner;
-    document.getElementById("text-highlight-desc3").innerText = t.highlightFastLearnerDesc;
+    updateElementText("text-about-title", t.aboutMe);
+    updateElementText("text-about-desc", t.aboutDescription);
+    updateElementText("text-highlight-title1", t.highlightCleanCode);
+    updateElementText("text-highlight-desc1", t.highlightCleanCodeDesc);
+    updateElementText("text-highlight-title2", t.highlightRobustSolutions);
+    updateElementText("text-highlight-desc2", t.highlightRobustSolutionsDesc);
+    updateElementText("text-highlight-title3", t.highlightFastLearner);
+    updateElementText("text-highlight-desc3", t.highlightFastLearnerDesc);
 
     // Career section
-    document.getElementById("text-career-title").innerText = t.careerTitle;
-    document.getElementById("text-job-title-1").innerText = t.job1Title;
-    document.getElementById("text-company-1").innerText = t.job1Company;
-    document.getElementById("text-job1-duration").innerText = t.job1Duration;
-    document.getElementById("text-job1-desc1").innerText = t.job1Description1;
-    document.getElementById("text-job1-desc2").innerText = t.job1Description2;
-    document.getElementById("text-job1-desc3").innerText = t.job1Description3;
-    document.getElementById("text-job1-desc4").innerText = t.job1Description4;
-    document.getElementById("text-job-title-2").innerText = t.job2Title;
-    document.getElementById("text-job2-duration").innerText = t.job2Duration;
-    document.getElementById("text-company-2").innerText = t.job2Company;
-    document.getElementById("text-job2-desc1").innerText = t.job2Description1;
-    document.getElementById("text-job2-desc2").innerText = t.job2Description2;
-    document.getElementById("text-job2-desc3").innerText = t.job2Description3;
-    document.getElementById("text-job2-desc4").innerText = t.job2Description4;
+    updateElementText("text-career-title", t.careerTitle);
+    updateElementText("text-job-title-1", t.job1Title);
+    updateElementText("text-company-1", t.job1Company);
+    updateElementText("text-job1-duration", t.job1Duration);
+    updateElementText("text-job1-desc1", t.job1Description1);
+    updateElementText("text-job1-desc2", t.job1Description2);
+    updateElementText("text-job1-desc3", t.job1Description3);
+    updateElementText("text-job1-desc4", t.job1Description4);
+    updateElementText("text-job-title-2", t.job2Title);
+    updateElementText("text-job2-duration", t.job2Duration);
+    updateElementText("text-company-2", t.job2Company);
+    updateElementText("text-job2-desc1", t.job2Description1);
+    updateElementText("text-job2-desc2", t.job2Description2);
+    updateElementText("text-job2-desc3", t.job2Description3);
+    updateElementText("text-job2-desc4", t.job2Description4);
 
     // Tech stack section
-    document.getElementById("text-tech-title").innerText = t.techStackTitle;
-    document.getElementById("text-tech-programming-languages").innerText = t.programmingLanguages;
-    document.getElementById("text-tech-frameworks").innerText = t.frameworks;
-    document.getElementById("text-tech-tools-and-databases").innerText = t.toolsAndDatabases;
+    updateElementText("text-tech-title", t.techStackTitle);
+    updateElementText("text-tech-programming-languages", t.programmingLanguages);
+    updateElementText("text-tech-frameworks", t.frameworks);
+    updateElementText("text-tech-tools-and-databases", t.toolsAndDatabases);
 
     // Education section
-    document.getElementById("text-education-title").innerText = t.educationTitle;
-    document.getElementById("text-master-title").innerText = t.masterTitle;
-    document.getElementById("text-master-university-name").innerText = t.masterUniversityName;
-    document.getElementById("text-master-graduation").innerText = t.masterGrade;
-    document.getElementById("text-master-thesis-title").innerText = t.masterThesisTitle;
-    document.getElementById("text-master-thesis-download").innerText = t.masterThesisDownload;
-    document.getElementById("text-master-graduation-year").innerText = t.masterGraduationYear;
-    document.getElementById("text-bachelor-title").innerText = t.bachelorTitle;
-    document.getElementById("text-bachelor-university-name").innerText = t.bachelorUniversityName;
-    document.getElementById("text-bachelor-graduation").innerText = t.bachelorGrade;
-    document.getElementById("text-bachelor-thesis-title").innerText = t.bachelorThesisTitle;
-    document.getElementById("text-bachelor-thesis-download").innerText = t.bachelorThesisDownload;
-    document.getElementById("text-bachelor-graduation-year").innerText = t.bachelorGraduationYear;
+    updateElementText("text-education-title", t.educationTitle);
+    updateElementText("text-master-title", t.masterTitle);
+    updateElementText("text-master-university-name", t.masterUniversityName);
+    updateElementText("text-master-graduation", t.masterGrade);
+    updateElementText("text-master-thesis-title", t.masterThesisTitle);
+    updateElementText("text-master-thesis-download", t.masterThesisDownload);
+    updateElementText("text-master-graduation-year", t.masterGraduationYear);
+    updateElementText("text-bachelor-title", t.bachelorTitle);
+    updateElementText("text-bachelor-university-name", t.bachelorUniversityName);
+    updateElementText("text-bachelor-graduation", t.bachelorGrade);
+    updateElementText("text-bachelor-thesis-title", t.bachelorThesisTitle);
+    updateElementText("text-bachelor-thesis-download", t.bachelorThesisDownload);
+    updateElementText("text-bachelor-graduation-year", t.bachelorGraduationYear);
 
     // Projects section
-    document.getElementById("text-portfolio-title").innerText = t.portfolioTitle;
-    document.getElementById("text-project-title1").innerText = t.projectTitle1;
-    document.getElementById("text-project-desc1").innerText = t.projectDesc1;
-    document.getElementById("text-project-link1").innerText = t.projectLink;
+    updateElementText("text-portfolio-title", t.portfolioTitle);
+    updateElementText("text-project-title1", t.projectTitle1);
+    updateElementText("text-project-desc1", t.projectDesc1);
+    updateElementText("text-project-link1", t.projectLink);
 
     // Update other project elements
-    document.getElementById("text-project-title2").innerText = t.projectTitle2;
-    document.getElementById("text-project-desc2").innerText = t.projectDesc2;
-    document.getElementById("text-project-link2").innerText = t.projectLink;
+    updateElementText("text-project-title2", t.projectTitle2);
+    updateElementText("text-project-desc2", t.projectDesc2);
+    updateElementText("text-project-link2", t.projectLink);
 
-    document.getElementById("text-project-title3").innerText = t.projectTitle3;
-    document.getElementById("text-project-desc3").innerText = t.projectDesc3;
-    document.getElementById("text-project-link3").innerText = t.projectLink;
+    updateElementText("text-project-title3", t.projectTitle3);
+    updateElementText("text-project-desc3", t.projectDesc3);
+    updateElementText("text-project-link3", t.projectLink);
 
-    document.getElementById("text-project-title4").innerText = t.projectTitle4;
-    document.getElementById("text-project-desc4").innerText = t.projectDesc4;
-    document.getElementById("text-project-link4").innerText = t.projectLink;
+    updateElementText("text-project-title4", t.projectTitle4);
+    updateElementText("text-project-desc4", t.projectDesc4);
+    updateElementText("text-project-link4", t.projectLink);
 
     // Photography section
-    document.getElementById("text-photo-title").innerText = t.photoTitle;
-    document.getElementById("text-photo-desc").innerText = t.photoDesc;
-    document.getElementById("text-photo-card-title").innerText = t.photoCardTitle;
-    document.getElementById("text-img01-caption").innerText = t.photo01Caption;
-    document.getElementById("text-img02-caption").innerText = t.photo02Caption;
-    document.getElementById("text-img03-caption").innerText = t.photo03Caption;
-    document.getElementById("text-view-more-photos").innerText = t.viewMorePhotos;
+    updateElementText("text-photo-title", t.photoTitle);
+    updateElementText("text-photo-desc", t.photoDesc);
+    updateElementText("text-photo-card-title", t.photoCardTitle);
+    updateElementText("text-img01-caption", t.photo01Caption);
+    updateElementText("text-img02-caption", t.photo02Caption);
+    updateElementText("text-img03-caption", t.photo03Caption);
+    updateElementText("text-view-more-photos", t.viewMorePhotos);
 
     // Contact section
-    document.getElementById("text-contact-title").innerText = t.contactTitle;
-    document.getElementById("text-contact-desc").innerText = t.contactText;
-    document.getElementById("text-cv-title").innerText = t.cvTitle || "Curriculum Vitae";
-    document.getElementById("text-cv-desc").innerText = t.cvDescription || "Download my CV to learn more about my experience and skills.";
-    document.getElementById("cv-link").innerText = t.cvDownload;
-    document.getElementById("cv-link").setAttribute("href", t.cvFile);
+    updateElementText("text-contact-title", t.contactTitle);
+    updateElementText("text-contact-desc", t.contactText);
+    updateElementText("text-cv-title", t.cvTitle || "Curriculum Vitae");
+    updateElementText("text-cv-desc", t.cvDescription || "Download my CV to learn more about my experience and skills.");
+    updateElementText("cv-link", t.cvDownload);
+    updateElementAttribute("cv-link", "href", t.cvFile);
 
     // Social links
-    document.getElementById("text-social-links-title").innerText = t.connectWithMe;
+    updateElementText("text-social-links-title", t.connectWithMe);
+
+    // Memory Game section
+    updateElementText("text-memory-title", t.memoryGameTitle);
+    updateElementText("text-memory-card-title", t.memoryCardTitle);
+    updateElementText("text-memory-desc", t.memoryDescription);
+    updateElementText("text-memory-matches-label", t.memoryMatchesLabel);
+    updateElementText("text-memory-accuracy-label", t.memoryAccuracyLabel);
+    updateElementText("text-memory-attempts-label", t.memoryAttemptsLabel);
+    updateElementText("text-memory-reset", t.memoryReset);
+    updateElementText("text-project-title5", t.memoryProjectTitle);
+    updateElementText("text-project-desc5", t.memoryProjectDesc);
+    updateElementText("text-project-link5", t.memoryPlayGame);
+
+    // Back to home link (for memory-game.html)
+    updateElementText("text-back-to-home", t.backToHome);
 
     // Footer
-    document.getElementById("text-footer").innerText = t.footerText;
+    updateElementText("text-footer", t.footerText);
 
     // Reinitialize animated headings after language switch
     setTimeout(() => {
-        animateHeadings();
+        if (typeof animateHeadings === 'function') {
+            animateHeadings();
+        }
     }, 100);
 
     // Tech categories
@@ -122,13 +156,24 @@ function switchLanguage(lang) {
         "Jira": 70
     };
 
-    // Clear previous tech items
-    document.getElementById("tech-languages").innerHTML = "";
-    document.getElementById("tech-frameworks").innerHTML = "";
-    document.getElementById("tech-tools").innerHTML = "";
+    // Helper function to safely get element
+    function getElement(id) {
+        return document.getElementById(id);
+    }
+
+    // Clear previous tech items if elements exist
+    const techLanguages = getElement("tech-languages");
+    const techFrameworks = getElement("tech-frameworks");
+    const techTools = getElement("tech-tools");
+
+    if (techLanguages) techLanguages.innerHTML = "";
+    if (techFrameworks) techFrameworks.innerHTML = "";
+    if (techTools) techTools.innerHTML = "";
 
     // Function to create a tech item
     const createTechItem = (tech, container) => {
+        if (!container) return;
+
         const item = document.createElement("div");
         item.className = "tech-item";
 
@@ -162,22 +207,28 @@ function switchLanguage(lang) {
         }, 300);
     };
 
-    // Populate tech items by category
-    techCategories.languages.forEach(tech => {
-        if (t.techList.includes(tech)) {
-            createTechItem(tech, document.getElementById("tech-languages"));
-        }
-    });
+    // Populate tech items by category only if elements exist
+    if (techLanguages) {
+        techCategories.languages.forEach(tech => {
+            if (t.techList.includes(tech)) {
+                createTechItem(tech, techLanguages);
+            }
+        });
+    }
 
-    techCategories.frameworks.forEach(tech => {
-        if (t.techList.includes(tech)) {
-            createTechItem(tech, document.getElementById("tech-frameworks"));
-        }
-    });
+    if (techFrameworks) {
+        techCategories.frameworks.forEach(tech => {
+            if (t.techList.includes(tech)) {
+                createTechItem(tech, techFrameworks);
+            }
+        });
+    }
 
-    techCategories.tools.forEach(tech => {
-        if (t.techList.includes(tech)) {
-            createTechItem(tech, document.getElementById("tech-tools"));
-        }
-    });
+    if (techTools) {
+        techCategories.tools.forEach(tech => {
+            if (t.techList.includes(tech)) {
+                createTechItem(tech, techTools);
+            }
+        });
+    }
 }
