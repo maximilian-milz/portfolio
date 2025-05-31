@@ -83,7 +83,7 @@ const translations = {
         photoCardTitle: "Meine Fotografie",
         viewMorePhotos: "Mehr Fotos ansehen",
         photo01Caption: "Rio de Janeiro - Ipanema",
-        photo02Caption: "B4MBI",
+        photo02Caption: "Berlin - Subway Station - B4MBI",
         photo03Caption: "Paraty - Ilha do João Araújo",
 
         // Contact section
@@ -180,7 +180,7 @@ const translations = {
         photoCardTitle: "My Photography",
         viewMorePhotos: "View more photos",
         photo01Caption: "Rio de Janeiro - Ipanema",
-        photo02Caption: "B4MBI",
+        photo02Caption: "Berlin - Subway Station - B4MBI",
         photo03Caption: "Paraty - Ilha do João Araújo",
 
         // Contact section
