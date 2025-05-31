@@ -39,7 +39,7 @@ const translations = {
 
         // Tech stack section
         techStackTitle: "Tech-Stack",
-        techList: ["Java", "Kotlin", "Python", "Spring Boot", "Hibernate", "PostgreSQL", "Docker", "Git", "Figma", "Jira"],
+        techList: ["Java", "Kotlin", "Python", "TypeScript", "Spring Boot", "Hibernate", "Angular", "PostgreSQL", "Docker", "Git", "Figma", "Jira", "AWS"],
         programmingLanguages: "Programmiersprachen",
         frameworks: "Frameworks",
         toolsAndDatabases: "Tools und Datenbanken",
@@ -67,8 +67,8 @@ const translations = {
         portfolioTitle: "Projekte",
         projectTitle1: "Kotlin REST API Skeleton",
         projectDesc1: "Ein Skeleton-Projekt für REST APIs mit Kotlin und Spring Boot als Grundlage für zukünftige Projekte.",
-        projectTitle2: "REST-API Service",
-        projectDesc2: "Entwicklung eines skalierbaren REST-API Services mit Spring Boot, JPA und PostgreSQL.",
+        projectTitle2: "Vocabulary API",
+        projectDesc2: "Eine REST-API zur Verwaltung portugiesisch-deutscher Vokabeln mit Spaced-Repetition-Algorithmus, Kategorisierung, Beispielsätzen und Import/Export-Funktionen. Entwickelt mit Kotlin, Spring Boot und PostgreSQL nach Clean-Architecture-Prinzipien.",
         projectTitle3: "Microservice-Architektur",
         projectDesc3: "Konzeption und Implementierung einer Microservice-Architektur mit Docker und Kubernetes.",
         projectTitle4: "Datenanalyse-Tool",
@@ -138,7 +138,7 @@ const translations = {
 
         // Tech stack section
         techStackTitle: "Tech Stack",
-        techList: ["Java", "Kotlin", "Python", "Spring Boot", "Hibernate", "PostgreSQL", "Docker", "Git", "Figma", "Jira"],
+        techList: ["Java", "Kotlin", "Python", "TypeScript", "Spring Boot", "Hibernate", "Angular", "PostgreSQL", "Docker", "Git", "Figma", "Jira", "AWS"],
         programmingLanguages: "Programming Languages",
         frameworks: "Frameworks",
         toolsAndDatabases: "Tools and Databases",
@@ -166,8 +166,8 @@ const translations = {
         portfolioTitle: "Projects",
         projectTitle1: "Kotlin REST API Skeleton",
         projectDesc1: "A skeleton project for REST APIs with Kotlin and Spring Boot as a foundation for future projects.",
-        projectTitle2: "REST API Service",
-        projectDesc2: "Built a scalable REST API service using Spring Boot, JPA and PostgreSQL.",
+        projectTitle2: "Vocabulary API",
+        projectDesc2: "A REST API for managing Portuguese-German vocabulary with spaced repetition algorithm, categorization, example sentences, and import/export capabilities. Developed with Kotlin, Spring Boot, and PostgreSQL following Clean Architecture principles.",
         projectTitle3: "Microservice Architecture",
         projectDesc3: "Designed and implemented a microservice architecture using Docker and Kubernetes.",
         projectTitle4: "Data Analysis Tool",

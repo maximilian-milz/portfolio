@@ -83,6 +83,9 @@ function switchLanguage(lang) {
     updateElementText("text-project-title1", t.projectTitle1);
     updateElementText("text-project-desc1", t.projectDesc1);
     updateElementText("text-project-link1", t.projectLink);
+    updateElementText("text-project-title2", t.projectTitle2);
+    updateElementText("text-project-desc2", t.projectDesc2);
+    updateElementText("text-project-link2", t.projectLink);
 
     // Photography section
     updateElementText("text-photo-title", t.photoTitle);
@@ -128,9 +131,9 @@ function switchLanguage(lang) {
 function initializeTechStack(t) {
     // Tech categories
     const techCategories = {
-        languages: ["Java", "Kotlin", "Python"],
-        frameworks: ["Spring Boot", "Hibernate"],
-        tools: ["PostgreSQL", "Docker", "Git", "Figma", "Jira"]
+        languages: ["Java", "Kotlin", "Python", "TypeScript"],
+        frameworks: ["Spring Boot", "Hibernate", "Angular"],
+        tools: ["PostgreSQL", "Docker", "Git", "Figma", "Jira", "AWS"]
     };
 
     // Skill levels (0-100)
@@ -138,13 +141,16 @@ function initializeTechStack(t) {
         "Java": 95,
         "Kotlin": 70,
         "Python": 80,
+        "TypeScript": 40,
         "Spring Boot": 90,
         "Hibernate": 70,
+        "Angular": 50,
         "PostgreSQL": 75,
         "Docker": 90,
         "Git": 95,
         "Figma": 60,
-        "Jira": 70
+        "Jira": 70,
+        "AWS": 50
     };
 
     // Helper function to safely get element
