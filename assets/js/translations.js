@@ -167,7 +167,7 @@ const translations = {
         projectTitle1: "Kotlin REST API Skeleton",
         projectDesc1: "A skeleton project for REST APIs with Kotlin and Spring Boot as a foundation for future projects.",
         projectTitle2: "Vocabulary API",
-        projectDesc2: "A REST API for managing Portuguese-German vocabulary with spaced repetition algorithm, categorization, example sentences, and import/export capabilities. Developed with Kotlin, Spring Boot, and PostgreSQL following Clean Architecture principles.",
+        projectDesc2: "A REST API for managing Portuguese-German vocabulary with spaced repetition algorithm, categorization, example sentencesand import/export capabilities. Developed with Kotlin, Spring Bootand PostgreSQL following Clean Architecture principles.",
         projectTitle3: "Microservice Architecture",
         projectDesc3: "Designed and implemented a microservice architecture using Docker and Kubernetes.",
         projectTitle4: "Data Analysis Tool",
