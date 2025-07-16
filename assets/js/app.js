@@ -1,6 +1,3 @@
-// Main application functionality
-// Combines language switching and UI effects
-
 /**
  * Switch the website language
  * @param {string} lang - Language code ('de' or 'en')

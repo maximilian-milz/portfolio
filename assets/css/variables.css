@@ -1,5 +1,5 @@
 :root {
-    /* Colors - Apple-inspired palette with previous dark theme */
+    /* Colors */
     --color-text-primary: #F5F5F7;
     --color-text-secondary: #A1A1A6;
     --color-accent: #0071E3;
@@ -9,7 +9,7 @@
     --color-bg-secondary: #1a0b29;
     --color-bg-tertiary: #111827;
 
-    /* Gradients - Subtle Apple-like gradients */
+    /* Gradients */
     --gradient-primary: linear-gradient(135deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 50%, var(--color-bg-tertiary) 100%);
     --gradient-accent: linear-gradient(90deg, var(--color-accent), var(--color-accent-secondary));
     --gradient-text: linear-gradient(90deg, var(--color-text-primary), var(--color-accent-light));

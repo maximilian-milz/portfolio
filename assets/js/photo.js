@@ -1,6 +1,3 @@
-// Photo functionality for the website
-// Combines photo modal and photo gallery functionality
-
 /**
  * Initialize the photo gallery
  */
@@ -8,7 +5,7 @@ function initPhotoGallery() {
     // Get all photo items
     const photoItems = document.querySelectorAll('.photo-item');
     const featuredPhoto = document.querySelector('.featured-photo-container');
-    
+
     // Add click event to featured photo
     if (featuredPhoto) {
         featuredPhoto.addEventListener('click', () => {
@@ -17,7 +14,7 @@ function initPhotoGallery() {
             openPhotoModal(imgSrc, caption);
         });
     }
-    
+
     // Add click events to all photo items
     photoItems.forEach(item => {
         item.addEventListener('click', () => {

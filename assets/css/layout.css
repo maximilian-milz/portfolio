@@ -7,7 +7,7 @@ body {
     background: var(--color-bg-primary);
 }
 
-/* Subtle background for Apple-like design */
+/* Subtle background */
 .subtle-background {
     position: fixed;
     top: 0;
@@ -20,7 +20,7 @@ body {
     animation: subtleGradientFlow 15s ease infinite alternate;
 }
 
-/* Subtle overlay for Apple-like design */
+/* Subtle overlay */
 body::after {
     content: '';
     position: fixed;
@@ -35,15 +35,27 @@ body::after {
 
 /* Animations */
 @keyframes gradientShift {
-    0% { background-position: 0% 50% }
-    50% { background-position: 100% 50% }
-    100% { background-position: 0% 50% }
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 @keyframes subtleGradientFlow {
-    0% { opacity: 0.95; }
-    50% { opacity: 1; }
-    100% { opacity: 0.95; }
+    0% {
+        opacity: 0.95;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.95;
+    }
 }
 
 @keyframes letterFadeIn {
@@ -58,15 +70,27 @@ body::after {
 }
 
 @keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); }
-    70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+    0% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+    }
 }
 
 @keyframes techPulse {
-    0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
-    70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+    0% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+    }
 }
 
 /* Fade-in animation for sections */
@@ -119,26 +143,85 @@ body::after {
 }
 
 /* Letter animation delays - using a more efficient approach */
-.animated-heading .letter:nth-child(1) { animation-delay: 0.05s; }
-.animated-heading .letter:nth-child(2) { animation-delay: 0.1s; }
-.animated-heading .letter:nth-child(3) { animation-delay: 0.15s; }
-.animated-heading .letter:nth-child(4) { animation-delay: 0.2s; }
-.animated-heading .letter:nth-child(5) { animation-delay: 0.25s; }
-.animated-heading .letter:nth-child(6) { animation-delay: 0.3s; }
-.animated-heading .letter:nth-child(7) { animation-delay: 0.35s; }
-.animated-heading .letter:nth-child(8) { animation-delay: 0.4s; }
-.animated-heading .letter:nth-child(9) { animation-delay: 0.45s; }
-.animated-heading .letter:nth-child(10) { animation-delay: 0.5s; }
-.animated-heading .letter:nth-child(11) { animation-delay: 0.55s; }
-.animated-heading .letter:nth-child(12) { animation-delay: 0.6s; }
-.animated-heading .letter:nth-child(13) { animation-delay: 0.65s; }
-.animated-heading .letter:nth-child(14) { animation-delay: 0.7s; }
-.animated-heading .letter:nth-child(15) { animation-delay: 0.75s; }
-.animated-heading .letter:nth-child(16) { animation-delay: 0.8s; }
-.animated-heading .letter:nth-child(17) { animation-delay: 0.85s; }
-.animated-heading .letter:nth-child(18) { animation-delay: 0.9s; }
-.animated-heading .letter:nth-child(19) { animation-delay: 0.95s; }
-.animated-heading .letter:nth-child(20) { animation-delay: 1s; }
+.animated-heading .letter:nth-child(1) {
+    animation-delay: 0.05s;
+}
+
+.animated-heading .letter:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.animated-heading .letter:nth-child(3) {
+    animation-delay: 0.15s;
+}
+
+.animated-heading .letter:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+.animated-heading .letter:nth-child(5) {
+    animation-delay: 0.25s;
+}
+
+.animated-heading .letter:nth-child(6) {
+    animation-delay: 0.3s;
+}
+
+.animated-heading .letter:nth-child(7) {
+    animation-delay: 0.35s;
+}
+
+.animated-heading .letter:nth-child(8) {
+    animation-delay: 0.4s;
+}
+
+.animated-heading .letter:nth-child(9) {
+    animation-delay: 0.45s;
+}
+
+.animated-heading .letter:nth-child(10) {
+    animation-delay: 0.5s;
+}
+
+.animated-heading .letter:nth-child(11) {
+    animation-delay: 0.55s;
+}
+
+.animated-heading .letter:nth-child(12) {
+    animation-delay: 0.6s;
+}
+
+.animated-heading .letter:nth-child(13) {
+    animation-delay: 0.65s;
+}
+
+.animated-heading .letter:nth-child(14) {
+    animation-delay: 0.7s;
+}
+
+.animated-heading .letter:nth-child(15) {
+    animation-delay: 0.75s;
+}
+
+.animated-heading .letter:nth-child(16) {
+    animation-delay: 0.8s;
+}
+
+.animated-heading .letter:nth-child(17) {
+    animation-delay: 0.85s;
+}
+
+.animated-heading .letter:nth-child(18) {
+    animation-delay: 0.9s;
+}
+
+.animated-heading .letter:nth-child(19) {
+    animation-delay: 0.95s;
+}
+
+.animated-heading .letter:nth-child(20) {
+    animation-delay: 1s;
+}
 
 /* Hover effects for images and text */
 .hover-effect img,

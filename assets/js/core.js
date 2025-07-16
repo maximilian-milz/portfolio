@@ -1,12 +1,9 @@
-// Core functionality for the website
-// Contains initialization code and common utility functions
-
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", () => {
     // Initialize all components
     initializeComponents();
-    
-    // Set up intersection observer for fade-in animations
+
+    // Set up an intersection observer for fade-in animations
     setupFadeInAnimations();
 });
 
@@ -22,7 +19,7 @@ function initializeComponents() {
             console.error("Error switching language:", e);
         }
     }
-    
+
     // Initialize photo gallery if the function exists
     if (typeof initPhotoGallery === 'function') {
         try {
@@ -31,7 +28,7 @@ function initializeComponents() {
             console.error("Error initializing photo gallery:", e);
         }
     }
-    
+
     // Animate section headings
     if (typeof animateHeadings === 'function') {
         try {
@@ -43,7 +40,7 @@ function initializeComponents() {
 }
 
 /**
- * Set up intersection observer for fade-in animations
+ * Set up an intersection observer for fade-in animations
  */
 function setupFadeInAnimations() {
     // Simple Intersection Observer for fade-in animations

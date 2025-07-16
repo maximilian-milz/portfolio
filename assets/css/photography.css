@@ -111,8 +111,8 @@
     font-size: 1.125rem;
 }
 
-/* Apple-style Photo Gallery */
-.apple-photo-gallery {
+/*  Photo Gallery */
+.photo-gallery {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
