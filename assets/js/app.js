@@ -53,6 +53,13 @@ function switchLanguage(lang) {
     updateElementText("text-job2-desc2", t.job2Description2);
     updateElementText("text-job2-desc3", t.job2Description3);
     updateElementText("text-job2-desc4", t.job2Description4);
+    updateElementText("text-job-title-3", t.job3Title);
+    updateElementText("text-company-3", t.job3Company);
+    updateElementText("text-job3-duration", t.job3Duration);
+    updateElementText("text-job3-desc1", t.job3Description1);
+    updateElementText("text-job3-desc2", t.job3Description2);
+    updateElementText("text-job3-desc3", t.job3Description3);
+    updateElementText("text-job3-desc4", t.job3Description4);
 
     // Tech stack section
     updateElementText("text-tech-title", t.techStackTitle);
