@@ -128,7 +128,6 @@ const translations = {
 
         // Career section
         careerTitle: "Career",
-
         job1Title: "Backend Developer",
         job1Duration: "Oct 2021 - Feb 2024",
         job1Company: "Piobyte GmbH",

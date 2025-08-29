@@ -158,7 +158,7 @@ function initializeTechStack(t) {
         "AWS": 50
     };
 
-    // Helper function to safely get element
+    // Helper function to safely get element 
     function getElement(id) {
         return document.getElementById(id);
     }
