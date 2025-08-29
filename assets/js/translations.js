@@ -37,13 +37,14 @@ const translations = {
         job2Description3: "Tests & Qualitätssicherung",
         job2Description4: "Anbindung und Integration elektronischen Patientenakte (ePA)",
 
-        job3Title: "Backend-Entwickler",
-        job3Duration: "Aug 2025 - Heute",
-        job3Company: "",
-        job3Description1: "Platzhalter Beschreibung 1",
-        job3Description2: "Platzhalter Beschreibung 2",
-        job3Description3: "Platzhalter Beschreibung 3",
-        job3Description4: "Platzhalter Beschreibung 4",
+        job3Title: "Softwareentwickler",
+        job3Duration: "Sep 2025 - Heute",
+        job3Company: "BBHT Beratungsgesellschaft mbH & Co. KG",
+        job3Description1: "Projektmanagement",
+        job3Description2: "Business Analyse, Anforderungsmanagement, Geschäftsprozessmanagement",
+        job3Description3: "Enterprise Architekturen",
+        job3Description4: "Softwareentwicklung",
+        job3Description5: "Qualitätsmanagement, Testmanagement",
 
         // Tech stack section
         techStackTitle: "Tech-Stack",
@@ -144,13 +145,14 @@ const translations = {
         job2Description3: "Testing & Quality Assurance",
         job2Description4: "Connection and Integration of german Electronic Patient Records (ePA)",
 
-        job3Title: "Backend Developer",
-        job3Duration: "Aug 2025 - Present",
-        job3Company: "New Company GmbH",
-        job3Description1: "Placeholder description 1",
-        job3Description2: "Placeholder description 2",
-        job3Description3: "Placeholder description 3",
-        job3Description4: "Placeholder description 4",
+        job3Title: "Software Engineer",
+        job3Duration: "Sep 2025 - Present",
+        job3Company: "BBHT Beratungsgesellschaft mbH & Co. KG",
+        job3Description1: "Project Management",
+        job3Description2: "Business analysis, requirements management, business process management",
+        job3Description3: "Enterprise architectures",
+        job3Description4: "Software development",
+        job3Description5: "Quality management, test management",
 
         // Tech stack section
         techStackTitle: "Tech Stack",

@@ -60,6 +60,7 @@ function switchLanguage(lang) {
     updateElementText("text-job3-desc2", t.job3Description2);
     updateElementText("text-job3-desc3", t.job3Description3);
     updateElementText("text-job3-desc4", t.job3Description4);
+    updateElementText("text-job3-desc5", t.job3Description5);
 
     // Tech stack section
     updateElementText("text-tech-title", t.techStackTitle);
