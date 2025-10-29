@@ -9,7 +9,7 @@ const translations = {
 
         // About section highlights
         aboutMe: "Über mich",
-        jobTitle: "Backend Softwareentwickler",
+        jobTitle: "Softwareentwickler",
         aboutDescription: "Hi! Ich bin Max, Softwareentwickler mit Fokus auf Backend-Technologien. Besonders gerne arbeite ich mit Kotlin oder Java und entwickle robuste APIs und Backend-Systeme, die nicht nur funktionieren, sondern auch gut wartbar sind.\n\nNach meinem Master of Science in Informatik habe ich meinen Schwerpunkt auf pragmatische Softwareentwicklung gelegt: saubere Architektur, klarer Code und Tools, die die Arbeit leichter machen, von Spring Boot über Docker bis PostgreSQL. Ich arbeite gerne strukturiert, denke gerne voraus und finde auch dann Lösungen, wenn's mal etwas komplizierter wird.\n\nNeben der Arbeit beschäftige ich mich mit Fotografie, ein kreativer Ausgleich zum Code und probiere gerne neue Technologien aus, die mich fachlich weiterbringen.",
         highlightCleanCode: "Clean Code",
         highlightCleanCodeDesc: "Wartbaren, gut strukturierten Code zu schreiben ist meine Leidenschaft",
@@ -21,7 +21,7 @@ const translations = {
         // Career section
         careerTitle: "Karriere",
 
-        job1Title: "Backend-Entwickler",
+        job1Title: "Softwareentwickler",
         job1Duration: "Okt 2021 - Feb 2024",
         job1Company: "Piobyte GmbH",
         job1Description1: "Entwicklung skalierbarer Backend-Systeme mit Java",
@@ -29,7 +29,7 @@ const translations = {
         job1Description3: "Tests & Qualitätssicherung",
         job1Description4: "Optimierung von Datenbankabfragen und Verbesserung der Leistung",
 
-        job2Title: "Backend-Entwickler",
+        job2Title: "Softwareentwickler",
         job2Duration: "Feb 2024 - Jun 2025",
         job2Company: "Significo GmbH",
         job2Description1: "Entwicklung skalierbarer Backend-Systeme mit Java/Kotlin",
@@ -110,15 +110,15 @@ const translations = {
     en: {
         // hero
         greeting: "Hi, I'm Max 👋",
-        intro: "Software developer focused on backend technologies, passionate photographer and curious learner.",
+        intro: "Software Engineer focused on backend technologies, passionate photographer and curious learner.",
         learnMore: "Learn more",
         contactBtn: "Get in touch",
 
 
         // About section highlights
         aboutMe: "About me",
-        jobTitle: "Backend Software Developer",
-        aboutDescription: "Hi! I'm Max, a software developer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code and tools that make work easier – from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
+        jobTitle: "Software Engineer",
+        aboutDescription: "Hi! I'm Max, a software engineer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code and tools that make work easier – from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
         highlightCleanCode: "Clean Code",
         highlightCleanCodeDesc: "Writing maintainable, well-structured code is my passion",
         highlightRobustSolutions: "Robust Solutions",
@@ -128,7 +128,8 @@ const translations = {
 
         // Career section
         careerTitle: "Career",
-        job1Title: "Backend Developer",
+
+        job1Title: "Software Engineer",
         job1Duration: "Oct 2021 - Feb 2024",
         job1Company: "Piobyte GmbH",
         job1Description1: "Developed scalable backend systems using Java",
@@ -136,7 +137,7 @@ const translations = {
         job1Description3: "Testing & Quality Assurance",
         job1Description4: "Optimized database queries and improved performance",
 
-        job2Title: "Backend Developer",
+        job2Title: "Software Engineer",
         job2Duration: "Feb 2024 - Jun 2025",
         job2Company: "Significo GmbH",
         job2Description1: "Developed scalable backend systems using Java/Kotlin",
