@@ -118,7 +118,7 @@ const translations = {
         // About section highlights
         aboutMe: "About me",
         jobTitle: "Software Engineer",
-        aboutDescription: "Hi! I'm Max, a software engineer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code and tools that make work easier – from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
+        aboutDescription: "Hi! I'm Max, a software engineer with a focus on backend technologies. I particularly enjoy working with Kotlin or Java and building robust APIs and backend systems that are not only functional but also easy to maintain.\n\nAfter completing my Master of Science in Computer Science, I focused on pragmatic software development: clean architecture, readable code and tools that make work easier,   from Spring Boot to Docker to PostgreSQL. I like working in a structured way, thinking ahead and finding solutions even when things get complex.\n\nOutside of work, I enjoy photography as a creative balance to coding and love exploring new technologies that help me grow professionally.",
         highlightCleanCode: "Clean Code",
         highlightCleanCodeDesc: "Writing maintainable, well-structured code is my passion",
         highlightRobustSolutions: "Robust Solutions",

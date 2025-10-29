@@ -287,9 +287,21 @@
 }
 
 .hero-tech-icon-3 {
-    bottom: 10%;
-    left: 30%;
+    bottom: -20%;
+    left: 40%;
     animation: floatIcon 7s ease-in-out infinite 1s;
+}
+
+.hero-tech-icon-4 {
+    bottom: 20%;
+    right: 20%;
+    animation: floatIcon 3s ease-in-out infinite reverse 1s;
+}
+
+.hero-tech-icon-5 {
+    top: -15%;
+    left: 50%;
+    animation: floatIcon 5s ease-in-out infinite 2s;
 }
 
 /* Button icon animation */
