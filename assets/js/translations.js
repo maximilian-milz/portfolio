@@ -101,7 +101,7 @@ const translations = {
         cvTitle: "Lebenslauf",
         cvDescription: "Lade meinen Lebenslauf herunter, um mehr über meine Erfahrungen und Fähigkeiten zu erfahren.",
         cvDownload: "Lebenslauf herunterladen",
-        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-German.pdf",
+        cvFile: "assets/pdf/2025-11-07-Maximilian-Milz-CV.pdf",
         connectWithMe: "Verbinde dich mit mir",
 
         // Footer
@@ -207,7 +207,7 @@ const translations = {
         cvTitle: "Curriculum Vitae",
         cvDescription: "Download my CV to learn more about my experience and skills.",
         cvDownload: "Download CV",
-        cvFile: "assets/pdf/2025-05-26-Maximilian-Milz-CV-English.pdf",
+        cvFile: "assets/pdf/2025-11-07-Maximilian-Milz-CV.pdf",
         connectWithMe: "Connect with me",
 
         // Footer
